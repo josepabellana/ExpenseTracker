@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Swift
+import SwiftUI
 
 extension Color {
     static let background = Color("Background")
