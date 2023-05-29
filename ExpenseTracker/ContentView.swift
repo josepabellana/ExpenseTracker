@@ -26,7 +26,7 @@ struct ContentView: View {
                     
                     if !data.isEmpty {
                         let totalExpenses = data.last?.1 ?? 0
-                        CardView {
+                        CardView() {
                             VStack(alignment: .leading) {
                                 ChartLabel(totalExpenses.formatted(.currency(code: "EUR")), type: .title, format:"%.02f €")
                                     
