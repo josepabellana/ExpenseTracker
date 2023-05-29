@@ -17,6 +17,7 @@
 		722F69D32A2373E300F23D1C /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F69D22A2373E300F23D1C /* TransactionRow.swift */; };
 		722F69D62A2378B400F23D1C /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 722F69D52A2378B400F23D1C /* SwiftUIFontIcon */; };
 		722F69D82A237ABC00F23D1C /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F69D72A237ABC00F23D1C /* TransactionListViewModel.swift */; };
+		722F69DA2A237E5C00F23D1C /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F69D92A237E5C00F23D1C /* RecentTransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		722F69CE2A2372F400F23D1C /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		722F69D22A2373E300F23D1C /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		722F69D72A237ABC00F23D1C /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		722F69D92A237E5C00F23D1C /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				722F69BB2A2365C700F23D1C /* ExpenseTrackerApp.swift */,
 				722F69BD2A2365C700F23D1C /* ContentView.swift */,
+				722F69D92A237E5C00F23D1C /* RecentTransactionList.swift */,
 				722F69D22A2373E300F23D1C /* TransactionRow.swift */,
 				722F69D72A237ABC00F23D1C /* TransactionListViewModel.swift */,
 				722F69CC2A2371FD00F23D1C /* TransactionModel.swift */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				722F69CF2A2372F400F23D1C /* PreviewData.swift in Sources */,
+				722F69DA2A237E5C00F23D1C /* RecentTransactionList.swift in Sources */,
 				722F69CD2A2371FD00F23D1C /* TransactionModel.swift in Sources */,
 				722F69BE2A2365C700F23D1C /* ContentView.swift in Sources */,
 				722F69D32A2373E300F23D1C /* TransactionRow.swift in Sources */,
