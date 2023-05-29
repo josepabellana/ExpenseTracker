@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftUICharts
 
 struct ContentView: View {
+    var demoData: [Double] = [8, 2, 4, 6, 12, 9, 2]
+    
     var body: some View {
         NavigationView {
             ScrollView {
@@ -16,6 +19,20 @@ struct ContentView: View {
                     Text("Overview")
                         .font(.title2)
                         .bold()
+                    
+                    // MARK: Chart
+                    CardView {
+                        VStack {
+                            ChartLabel("$900", type: .title)
+                                
+                            LineChart()
+                        }
+                        .background(Color.systemBackground)
+                    }
+                    .data(demoData)
+                    .chartStyle(ChartStyle(backgroundColor: .systemBackground, foregroundColor: ColorGradient(Color.icon.opacity(0.4), Color.icon)))
+                    .frame(height: 300)
+                    
                     
                     // MARK: Transaction List
                     RecentTransactionList()
@@ -36,6 +53,7 @@ struct ContentView: View {
             }
         }
         .navigationViewStyle(.stack)
+        .accentColor(.primary)
     }
 }
 
